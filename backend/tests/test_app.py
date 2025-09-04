@@ -1,4 +1,5 @@
-from app import app
+from backend.app import app
+
 
 def test_home():
     client = app.test_client()
